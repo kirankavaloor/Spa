@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+section {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdfdfd;
+  }
+  .ser-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .left {
+    width: 40%;
+    height: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all ease 0.5s;
+  }
+
+  
+
+  .right {
+    width: 60%;
+    min-height: 250px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #3d1919;
+   
+  }
+  .right h1 {
+    font-size: 30px;
+    font-weight: lighter;
+  }
+  .right h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #000;
+  }
+  .right p {
+    margin: 0px 0;
+    font-weight: 500;
+    line-height: 25px;
+    color: #000;
+  }
+  .right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #3d1919;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+
+  .btnback{
+    width: 100px;
+    height: 40px;
+    /* background-color: rgb(92, 13, 13); */
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* border: 2px solid rgb(92, 13, 13); */
+    transition: .3s linear;
+    padding: 10px;
+    /* float: left; */
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+    text-decoration: none;
+  }
+ 
+
+  .btnback i {
+    color: #5e170a;
+    font-size: 25px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+   
+    .ser-container {
+      flex-direction: column;
+      width: 80%;
+      margin: 10px 10px;
+      
+    }
+    .left {
+      width: 100%;
+      height: 400px;
+    }
+    .right {
+      width: 90%;
+    
+      
+    }
+
+    .btnback {
+      position: relative;
+    }
+
+    .btnback i {
+      margin-top: 20px;
+    }
+  } 
+
+ 

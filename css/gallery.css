@@ -1,0 +1,120 @@
+
+.gallery{
+    /* background: #f1f1f1; */
+    text-align: center;
+  }
+  .gallery h1{
+    display: inline-block;
+    text-transform: initial uppercase;
+    /* border-bottom: 2px solid #5e170a; */
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    color: #5e170a;
+    /* text-align: center; */
+  }
+
+  .gallery h1 span {
+    border-bottom: 2px solid #5e170a;
+  }
+
+  .swiper-gallery {
+    position: relative;
+      height: 100%;
+  }
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+      /* padding-top: 20px; */
+    text-align: center;
+    font-size: 18px;
+    width:500px;
+    height: 300px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+  }
+
+
+  
+.seemore button{
+    border-radius: 4px;
+    background-color: #3b0202;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .seemore span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    color: #FFFFFF;
+  }
+
+  .seemore span a{
+    color: #FFFFFF;
+  } 
+
+  
+  @media(max-width: 768px){
+    .swiper-slide {
+      /* width: 100px; */
+     height: 200px;
+    }
+  }
+
+  
+ 
+  
+  
+
+ 

@@ -1,0 +1,78 @@
+.services{
+    /* background: #f1f1f1; */
+    text-align: center;
+  }
+  .services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5e170a;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+
+    /* text-align: center; */
+  }
+
+  /* .sub-service {
+    padding-left: 10%;
+  } */
+
+  /* .sub-service h2 {
+    display: inline-block;
+    text-transform: initial uppercase;
+    border-bottom: 5px solid #5e170a;
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+   */
+   .services p{
+   font-size: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+  }
+  /* @media only screen and (max-width: 768px) {
+    body {
+    background-color: rgb(212, 212, 166);
+    }
+  } */
+
+  .btnback{
+    width: 100px;
+    height: 40px;
+    /* background-color: rgb(92, 13, 13); */
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* border: 2px solid rgb(92, 13, 13); */
+    transition: .3s linear;
+    padding: 10px;
+    /* float: left; */
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+    text-decoration: none;
+  }
+ 
+
+  .btnback i {
+    color: #5e170a;
+    font-size: 25px;
+  }
+
+  @media (max-width:768px) {
+
+    .btnback {
+      position: relative;
+    }
+
+    .btnback i {
+      margin-top: 20px;
+    }
+    
+  }
+
+
+  

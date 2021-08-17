@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #f3f2f1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:before,:after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+header,section,footer{
+    display: block;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-bottom{
+    align-items: baseline;
+}
+
+.section-title h2{
+    display: inline-block;
+text-transform: uppercase;
+
+font-size: 40px;
+padding-bottom: 10px;
+margin-top: 40px;
+}
+
+.section-title h2 span {
+    border-bottom: 4px solid #5e170a;
+}
+
+
+.chat {
+    position: fixed;
+    color: rgb(92, 13, 13);
+    cursor: pointer;  
+}
+
+.chat .chat-box {
+    position: fixed;
+    padding-left: 20px;
+    margin-top: 500px;
+}
+
+.chat .chat-box a {
+    color: rgb(92, 13, 13);
+}
+
+.chat .chat-whatsapp {
+    /* position: fixed; */
+    padding-left: 20px;
+    margin-top: 430px;
+    display: none;
+}
+
+.chat .chat-whatsapp i {
+    color:rgb(92, 13, 13)
+}
+
+.chat .chat-box:hover + .chat-whatsapp {
+    display: block;
+}
+
+
+
