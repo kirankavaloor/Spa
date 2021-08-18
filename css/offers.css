@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services{
+    /* background: #f1f1f1; */
+    text-align: center;
+  }
+  .services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #5e170a;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+
+    /* text-align: center; */
+  }
+
+
+section{
+    height: 100vh;
+    background-image: url('../images/Special_offers/img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.centertext {
+    /* width: 1500px; */
+    margin: 10px auto;
+}
+
+.centertext h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgb(39, 32, 32);
+    font-weight: bold;
+    animation: textanimation 1s ease-in-out;
+}
+
+
+@keyframes textanimation {
+    0% {
+        letter-spacing: 15px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
+
+.centertext p {
+    text-align: center;
+    font-size: 30px;
+    color: #811212;
+    font-weight: bold;
+    animation: textanimation2 0.5s ease-in-out;
+}
+
+@keyframes textanimation2 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.centertext h1{ 
+    display: block; 
+}
+
+.centertext1 h1 { 
+    display: none;
+}
+
+.centertext p{
+     display: block;
+     }
+
+.centertext1 p { 
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    .services{
+        /* background: #f1f1f1; */
+        text-align: center;
+      }
+      .services h1{
+        display: inline-block;
+        text-transform: uppercase;
+        border-bottom: 4px solid #5e170a;
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    
+        /* text-align: center; */
+      }
+
+    section{
+        height: 100vh;
+        background-image: url('../images/Special_offers/mob-img.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .centertext1 h1 {
+        text-align: left;
+        font-size: 25px;
+        margin-top: 100px;
+        margin-left: 20px;
+        color: rgb(39, 32, 32);
+        font-weight: bold;
+        animation: textanimation 1s ease-in-out;
+    }
+
+
+    @keyframes textanimation {
+        0% {
+            letter-spacing: 15px;
+        }
+        100% {
+            letter-spacing: 1px;
+        }
+    }
+
+    .centertext1 p {
+        text-align: left;
+        font-size: 20px;
+        margin-left: 20px;
+        color: #811212;
+        font-weight: bold;
+        animation: textanimation2 0.5s ease-in-out;
+    }
+
+    @keyframes textanimation2 {
+        0% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+
+    .centertext h1{ 
+        display: none; 
+    }
+    
+    .centertext1 h1 { 
+        display: block;
+    }
+    
+    .centertext p{
+         display: none;
+         }
+    
+    .centertext1 p { 
+        display: block;
+    }
+
+
+
+}

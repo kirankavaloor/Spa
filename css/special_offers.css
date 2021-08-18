@@ -5,13 +5,12 @@
 }
 
 
-body {
+.sec {
     background-image: url("../images/Special_offers/img.jpg") ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px;
-    
 }
 
 .btnback{
@@ -96,7 +95,23 @@ body {
 
 .centertext1 p { display: none;}
 
-@media only screen and (max-width: 768px) {
+
+@media (max-width:768px){
+    .kiran1 {
+        display: none;
+    }
+}
+
+/* @media (max-width: 768px) {
+
+    .sec{
+        background-image: url("../images/Special_offers/mob-img.jpg") ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+            
+    }
 
     .centertext h1{ display: none; }
 
@@ -106,14 +121,7 @@ body {
 
     .centertext1 p { display: block;}
 
-    body{
-        background-image: url("../images/Special_offers/mob-img.jpg") ;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 0px;
-            
-    }
+    
 
     .text {
         margin-top: 20px;
@@ -125,8 +133,8 @@ body {
     
     .centertext1 {
        
-        /* width: 1200px; */
-        margin: 206px auto;
+        width: 1200px;
+        margin: 206px auto; 
         
        
     }
@@ -157,4 +165,4 @@ body {
         }
     }
    
-}
+} */
