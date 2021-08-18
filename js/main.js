@@ -16,6 +16,17 @@ $(window).on("load",function(){
         }
     })
 
+
+    $(".serv").click(function(){
+        $(".header .nav .sub").slideToggle();
+    })
+
+    $(".serv").click(function(){
+        if($(window).width() < 768){
+            $(".header .nav .sub").slideToggle();
+        }
+    })
+
     // fixed nav bar
     $(window).scroll(function(){
         if($(this).scrollTop() > 100){
@@ -90,17 +101,28 @@ function carousel() {
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
+$(document).ready(function(){
 
-$(function(){
-    $('.nav li').hover(
-        function(){
-            $('ul.sub',this).slideDown(500);
-        },
-        function(){
-            $('ul.sub',this).slideUp(300);
-        }
-    );
-});
+    $('ul li').click(function(){
+        $(this).siblings().removeClass('active');
+        $(this).toggleClass('active');
+    })
+})
+
+$('.sub-menu a').click(function(){
+    $(".sub-menu").collapse('active');
+})
+
+// $(function(){
+//     $('.nav li').hover(
+//         function(){
+//             $('ul.sub',this).slideDown(500);
+//         },
+//         function(){
+//             $('ul.sub',this).slideUp(300);
+//         }
+//     );
+// });
 
 $.scrollIt({
     topOffset: -50

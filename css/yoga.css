@@ -101,6 +101,10 @@ section {
   
   @media only screen and (max-width: 768px) {
    
+    .services {
+      background-color: rgb(224, 222, 192, 0.1);
+    }
+
     .ser-container {
       flex-direction: column;
       width: 80%;

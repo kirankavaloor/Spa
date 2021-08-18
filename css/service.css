@@ -64,6 +64,14 @@
 
   @media (max-width:768px) {
 
+    .services {
+      background-color: rgb(224, 222, 192);
+    }
+
+    .services h1{
+      font-size: 30px;
+    }
+
     .btnback {
       position: relative;
     }
