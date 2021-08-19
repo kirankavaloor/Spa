@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, .75);
+    background: rgba(0, 0, 0, 1);
     /* transition: opacity 500ms; */
     visibility: hidden;
     opacity: 0;
@@ -17,12 +17,13 @@
   .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 5px;
     width: 50%;
     position: relative;
     transition: all 3s ease-in-out;
     color: #0000;
+    /* opacity: 1; */
   }
   
   .popup img {

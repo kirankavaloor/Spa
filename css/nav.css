@@ -143,8 +143,8 @@ a{
 }
 
   .header .nav ul li.sub-menu::before {
-      content: '\f0d7';
-      font-family: fontAwesome;
+      content: "\f107";
+      /* font-family: font Awesome; */
       position: absolute;
       line-height: 70px;
       color: #ffffff;
@@ -152,8 +152,8 @@ a{
   }
 
   .header .nav ul li.active.sub-menu::before {
-    content: '\f0d8';
-    font-family: fontAwesome;
+    content: "\f106";
+    /* font-family: font Awesome; */
     position: absolute;
     line-height: 70px;
     color: #ffffff;
@@ -161,8 +161,8 @@ a{
 }
 
 .header.fixed .nav ul li.active.sub-menu::before {
-    content: '\f0d8';
-    font-family: fontAwesome;
+    content: "\f106";
+    /* font-family: font Awesome; */
     position: absolute;
     line-height: 70px;
     color: #3b0202;
@@ -170,8 +170,8 @@ a{
 }
 
   .header.fixed .nav ul li.sub-menu::before {
-    content: '\f0d7';
-    font-family: fontAwesome;
+    content: "\f107";
+    /* font-family: font Awesome; */
     position: absolute;
     line-height: 70px;
     color: #3b0202;

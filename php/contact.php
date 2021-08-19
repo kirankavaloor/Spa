@@ -16,7 +16,7 @@
     
     //echo $message;
     
-    mail("kavaloorkiran@gmail.com","Message From New Client",$message,$headers);
+    mail("bhaskar.bokikere@gmail.com","Message From New Client",$message,$headers);
     
     //  if(mail("bhaskar.bokikere@gmail.com","Message From Client",$message,$headers)){
     //      echo "mail sent successfully";
