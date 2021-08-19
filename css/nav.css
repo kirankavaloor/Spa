@@ -143,17 +143,23 @@ a{
 }
 
   .header .nav ul li.sub-menu::before {
-      content: "\f107";
-      /* font-family: font Awesome; */
+      content: "\00bb";
+      /* font-family: 'font Awesome'; */
+      /* font-family: 'Font Awesome 5 Free'; */
+      font-size: 25px;
       position: absolute;
       line-height: 70px;
       color: #ffffff;
       right: -20px;
+     
   }
 
   .header .nav ul li.active.sub-menu::before {
-    content: "\f106";
-    /* font-family: font Awesome; */
+    content: "\00ab";
+    /* font-family: 'Font Awesome 5 Free'; */
+    /* font-family: 'font Awesome'; */
+    /* font-size: 30px; */
+    font-size: 25px;
     position: absolute;
     line-height: 70px;
     color: #ffffff;
@@ -161,8 +167,10 @@ a{
 }
 
 .header.fixed .nav ul li.active.sub-menu::before {
-    content: "\f106";
-    /* font-family: font Awesome; */
+    content: "\00ab";
+    /* font-family: 'font Awesome'; */
+    /* font-family: 'Font Awesome 5 Free'; */
+    font-size: 25px;
     position: absolute;
     line-height: 70px;
     color: #3b0202;
@@ -170,8 +178,10 @@ a{
 }
 
   .header.fixed .nav ul li.sub-menu::before {
-    content: "\f107";
-    /* font-family: font Awesome; */
+    content: "\00bb";
+    /* font-family: 'font Awesome'; */
+    /* font-family: 'Font Awesome 5 Free'; */
+    font-size: 25px;
     position: absolute;
     line-height: 70px;
     color: #3b0202;
@@ -255,5 +265,58 @@ a{
     .header .nav ul li ul li {
         width: 100%;
     }
+
     
-  }
+  .header .nav ul li.sub-menu::before {
+    content: "\00bb";
+    /* font-family: 'font Awesome'; */
+    /* font-family: 'Font Awesome 5 Free'; */
+    font-size: 25px;
+    padding-right: 50px;
+    /* position: absolute; */
+    /* line-height: 70px; */
+    color: #3333;
+    /* right: -20px; */
+   
+}
+
+.header .nav ul li.active.sub-menu::before {
+  content: "\00ab";
+  /* font-family: 'Font Awesome 5 Free'; */
+  /* font-family: 'font Awesome'; */
+  /* font-size: 30px; */
+  font-size: 25px;
+  /* padding-right: 50px; */
+  /* position: absolute; */
+  /* line-height: 70px; */
+  color: #3333;
+  /* right: -20px; */
+}
+
+.header.fixed .nav ul li.active.sub-menu::before {
+  content: "\00ab";
+  /* font-family: 'font Awesome'; */
+  /* font-family: 'Font Awesome 5 Free'; */
+  font-size: 25px;
+  /* padding-right: 50px; */
+  /* margin-left: 10px; */
+  /* position: absolute; */
+  /* line-height: 70px; */
+  color: #3b0202;
+  /* right: -20px; */
+}
+
+.header.fixed .nav ul li.sub-menu::before {
+  content: "\00bb";
+  /* font-family: 'font Awesome'; */
+  /* font-family: 'Font Awesome 5 Free'; */
+  font-size: 25px;
+  padding-right: 50px;
+  /* margin-left: 10px; */
+  /* position: absolute; */
+  /* line-height: 70px; */
+  color: #3b0202;
+  /* right: -20px; */
+}
+    
+}
