@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     background-color: #f3f2f1;
+    overflow-x: hidden;
 }
 
 *{
@@ -72,7 +73,7 @@ margin-top: 40px;
 .chat .chat-box {
     position: fixed;
     padding-left: 20px;
-    margin-top: 500px;
+    margin-top: 550px;
 }
 
 .chat .chat-box a {
@@ -82,7 +83,7 @@ margin-top: 40px;
 .chat .chat-whatsapp {
     /* position: fixed; */
     padding-left: 20px;
-    margin-top: 430px;
+    margin-top: 480px;
     display: none;
 }
 

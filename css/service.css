@@ -27,9 +27,13 @@
   }
    */
    .services p{
+    /* width: 90%; */
    font-size: 20px;
-   margin-left: 50px;
-   margin-right: 50px;
+   display: flex;
+   margin-left: 150px;
+   margin-right: 150px;
+   align-items: center;
+
   }
   /* @media only screen and (max-width: 768px) {
     body {
@@ -70,6 +74,11 @@
 
     .services h1{
       font-size: 30px;
+    }
+
+    .services p {
+      margin-left: 50px;
+   margin-right: 50px;
     }
 
     .btnback {

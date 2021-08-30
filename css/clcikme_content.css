@@ -1,6 +1,8 @@
 
+
+
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -9,9 +11,13 @@
     /* transition: opacity 500ms; */
     visibility: hidden;
     opacity: 0;
+    overflow: hidden;
+    /* height: 100%; */
+    z-index: 1001;
   }
   .overlay:target {
     visibility: visible;
+    /* overflow: hidden; */
     opacity: 1;
   }
   
@@ -23,6 +29,7 @@
     width: 50%;
     position: relative;
     transition: all 3s ease-in-out;
+    /* overflow: hidden; */
   }
   
   .popup h2 {
