@@ -15,7 +15,8 @@
     <!-- For Gallery image we need this link start-->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 <!-- For Gallery image we need this link End-->
-<link rel="stylesheet" href="css/gallery.css">
+<!-- <link rel="stylesheet" href="css/gallery.css"> -->
+<link rel="stylesheet" href="css/newga.css">
 <link rel="stylesheet" href="css/contact.css">
 <link rel="stylesheet" href="css/footer.css">
 
@@ -172,14 +173,15 @@
     </section>
     <!-- Home Section Ends -->
  
+    <section>
     <!-- Gallery Section Start -->
     <div class="gallery" id="ser" data-scroll-index="2">
         <h1><span>Gallery</span></h1>
     </div>
 
     <!-- For Laptop starts-->
-    <div class="swiper-gallery">
-        <div class="swiper-container">
+    <div class="swiper2">
+        <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="images/slide1.jpg" alt="img1" ></div>
                 <div class="swiper-slide"><img src="images/slide2.jpg" alt="img1" ></div>
@@ -190,26 +192,28 @@
                 <div class="swiper-slide"><img src="images/inside/img-4.jpg" alt="img1" ></div>
                 <div class="swiper-slide"><img src="images/inside/img-5.jpg" alt="img1" ></div>
                 <div class="swiper-slide"><img src="images/inside/img-6.jpg" alt="img1" ></div>
-          
             </div>
-
-    <!-- Add Pagination -->
+            <!-- Add Pagination -->
             <div class="swiper-pagination" style="display: none;"></div>
             <!-- Add Arrows -->
-            <div class="swiper-button-next" style="color: #3b0202;"></div>
-            <div class="swiper-button-prev" style="color: #3b0202;"></div>
+            <div class="swiper-button-next" style="color:#3b0202"></div>
+            <div class="swiper-button-prev" style="color:#3b0202"></div>
         </div>
+        
     </div>
+    
     <!-- For Laptop Ends -->      
       
             <div class="row justify-content-center">  
                 <div class="seemore"><br><br>
                 <button><span><a href="html/galleryinside.html">See More</a></span></button>
             </div>
-    </div>
     
+</section>
         <!-- Gallery Section Ends -->
+<!-- New Section gallery start -->
 
+<!-- New sectionn gallery ends -->
         <!-- Contact Page -->
      <div class="contact" id="contact" data-scroll-index="3">
         <div class="contact-page">
@@ -284,64 +288,76 @@
  
   <!-- Swiper JS -->
  
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-        // $(document).ready(function() {
-            if(window.matchMedia("(max-width: 768px)").matches) {
-        var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    slidesPerGroup: 1,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    loop: true,
-            autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            },
-    });
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  <script type="module">
+    // var swiper = new Swiper('.swiper', {
+    //   slidesPerView: 3,
+    //   spaceBetween: 30,
+    //   slidesPerGroup: 3,
+    //   loop: true,
+    //   loopFillGroupWithBlank: true,
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    //   },
+    //   navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    //   },
+    // });
+
+    if(window.matchMedia("(max-width: 768px)").matches) {
+    var swiper = new Swiper('.swiper', {
+slidesPerView: 1,
+spaceBetween: 10,
+slidesPerGroup: 1,
+loop: true,
+loopFillGroupWithBlank: true,
+pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+},
+navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+},
+loop: true,
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        },
+});
 
 } else {
-        var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
-    loop: true,
-    loopFillGroupWithBlank: true,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    loop: true,
-            autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            },
-    });
+    var swiper = new Swiper('.swiper', {
+slidesPerView: 3,
+spaceBetween: 30,
+slidesPerGroup: 3,
+loop: true,
+loopFillGroupWithBlank: true,
+pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+},
+navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+},
+loop: true,
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        },
+});
 }
 
-        // });
-    
-       
-
-    </script>
+  </script>
    
     <script src="js/jquery.min.js"></script>
     <script src="js/scrollit.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
     
 </body>

@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     background-color: #f3f2f1;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 *{
@@ -96,4 +96,8 @@ margin-top: 40px;
 }
 
 
-
+/* @media (max-width:768px){
+    body {
+        overflow-x: hidden;
+    }
+} */
