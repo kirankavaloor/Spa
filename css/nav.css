@@ -235,6 +235,21 @@ a{
     .header .nav{
         display: block;
     }
+
+    .header .nav ul li ul li {
+        display: block;
+        width: 200px;
+        padding-top: 10px;
+        height: 30px;
+        /* line-height:30px; */
+        /* padding-bottom: 5px; */
+    }
+
+    /* .header .nav ul li ul li  {
+        display: block;
+        width: 200px;
+        line-height: 10px;
+      } */
     
 }
 
