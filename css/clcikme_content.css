@@ -71,4 +71,10 @@
     overflow: auto;
   }
 
+
+  @media (max-width:768px) {
+    .popup {
+      width: 90%;
+    }
+  }
   

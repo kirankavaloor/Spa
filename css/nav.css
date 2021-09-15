@@ -30,7 +30,7 @@ a{
       font-size: 30px;
       color: #ffffff;
       font-weight: bold;
-      font-family: 'Great Vibes', cursive;
+      /* font-family: 'Great Vibes', cursive; */
       letter-spacing: 2px;
       text-transform: uppercase;
       /* transition: all 0.5s ease; */

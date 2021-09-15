@@ -64,40 +64,28 @@ margin-top: 40px;
 }
 
 
-.chat {
-    position: fixed;
-    color: rgb(92, 13, 13);
-    cursor: pointer;  
-}
-
-.chat .chat-box {
-    position: fixed;
-    padding-left: 20px;
-    margin-top: 550px;
-}
-
-.chat .chat-box a {
-    color: rgb(92, 13, 13);
-}
-
-.chat .chat-whatsapp {
-    /* position: fixed; */
-    padding-left: 20px;
-    margin-top: 480px;
-    display: none;
-}
-
-.chat .chat-whatsapp i {
-    color:rgb(92, 13, 13)
-}
-
-.chat .chat-box:hover + .chat-whatsapp {
-    display: block;
-}
-
-
 /* @media (max-width:768px){
     body {
         overflow-x: hidden;
     }
 } */
+
+.chat {
+    background-color : #5e170a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #5e170a;
+  }
+  
+  #mybutton {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+  }
+
+  .chat a {
+      color: white;
+      font-size: 25px;
+    cursor: pointer;
+  }
