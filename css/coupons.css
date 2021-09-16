@@ -8,6 +8,9 @@
     /* transition: opacity 500ms; */
     visibility: hidden;
     opacity: 0;
+    /* overflow: hidden; */
+    z-index: 1001;
+
   }
   .overlay:target {
     visibility: visible;

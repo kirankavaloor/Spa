@@ -28,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
     /* background-color: #322; */
   }
   
@@ -39,8 +40,11 @@
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
-    border: 2px solid #3b0202;
+    border: 2px solid rgb(31, 9, 9);
     border-radius: 10px;
+    background-image: url(../images/contact/bg.jpg);
+    opacity: 1;
+    box-shadow:  5px 5px  5px 5px  rgba(0, 0, 0, 0.555);
   }
   
   h2{
@@ -54,18 +58,26 @@
   .contact-info, .contact-form{
     flex: 1;
   }
+  .contact-info, .item{
+    margin-top: 5px;
+    line-height: 400%;
+  }
+
   
   .item{
-    margin-bottom: 20px;
-    font-size: 14px;
-    color: #322;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgb(107, 1, 1);
+    
+    
   }
   
   .icon{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    background-color: #3b0202;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
     text-align: center;
     color: #fff;
     border-radius: 50%;
@@ -82,13 +94,15 @@
     width: calc(50% - 10px);
     height: 50px;
     padding: 12px;
-    background-color: #3b0202;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
 
     /* background-color: #222; */
     border-radius: 10px;
     border: none;
     color: #fff;
     margin-bottom: 20px;
+    
   }
   
   textarea{
@@ -98,30 +112,33 @@
     border-radius: 10px;
     resize: vertical;
     padding: 12px;
-    background-color: #3b0202;
+    background-color: rgb(0, 0, 0);
     /* background-color: #222; */
     border: none;
     color: #fff;
     margin-bottom: 20px;
+    opacity: 0.6;
   }
   
   .btn{
     width: 120px;
     height: 40px;
     margin-left: auto;
-    background-color: #3b0202;
+    background-color: rgb(54, 6, 6);
+    opacity: 0.9;
+    
     border: none;
     border-radius: 10px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-    border: 2px solid #3b0202;
+    border: 2px solid rgb(138, 3, 3);
     transition: .3s linear;
   }
   
   .btn:hover{
     background-color: transparent;
-    color: #3b0202;
+    color: rgb(92, 13, 13);
   }
   .contact-page iframe {
     opacity: 1;
@@ -132,8 +149,13 @@
   }
   
   .map {
-    max-width:1100px;
-    margin: 0 auto;
+    
+     
+    max-width:1000px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    box-shadow:  5px 5px  5px 5px  rgba(5, 5, 5, 0.637);
+    
   }
 
   /* .map iframe {
@@ -152,6 +174,13 @@
       flex: 100%;
       margin-bottom: 30px;
     }
+
+    .item{
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: rgb(107, 1, 1);
+        
+      }
     .textb{
       width: 100%;
     }

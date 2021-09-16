@@ -1,24 +1,15 @@
 
 
+1) New contact page need to work.
 
-3) Contact Page border need to add & need to check full, Only 8AM to 8PM.
-
-
-4) Spa Packages text ceneter
-
-
+2) Contact Page border need to add & need to check full.
 
 
 Mobile:
 
-Nav Bar Header text font family Need to change 
-
-Contact Page Need to check full.
-
-
+Contact Page border need to check
 
 Others:
 Gallery 
 Nav Sub nav hoover
-Nav sub navbar mobile
-Voucher Pop
+

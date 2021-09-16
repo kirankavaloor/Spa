@@ -30,7 +30,7 @@ a{
       font-size: 30px;
       color: #ffffff;
       font-weight: bold;
-      /* font-family: 'Great Vibes', cursive; */
+      font-family: 'Righteous', cursive;
       letter-spacing: 2px;
       text-transform: uppercase;
       /* transition: all 0.5s ease; */
@@ -168,7 +168,7 @@ a{
       /* font-family: 'Font Awesome 5 Free'; */
       font-size: 25px;
       position: absolute;
-      line-height: 70px;
+      line-height: 65px;
       color: #ffffff;
       right: -20px;
      
@@ -181,7 +181,7 @@ a{
     /* font-size: 30px; */
     font-size: 25px;
     position: absolute;
-    line-height: 70px;
+    line-height: 65px;
     color: #ffffff;
     right: -20px;
 }
@@ -192,7 +192,7 @@ a{
     /* font-family: 'Font Awesome 5 Free'; */
     font-size: 25px;
     position: absolute;
-    line-height: 70px;
+    line-height: 65px;
     color: #3b0202;
     right: -20px;
 }
@@ -203,7 +203,7 @@ a{
     /* font-family: 'Font Awesome 5 Free'; */
     font-size: 25px;
     position: absolute;
-    line-height: 70px;
+    line-height: 65px;
     color: #3b0202;
     right: -20px;
 }
@@ -244,13 +244,6 @@ a{
         /* line-height:30px; */
         /* padding-bottom: 5px; */
     }
-
-    /* .header .nav ul li ul li  {
-        display: block;
-        width: 200px;
-        line-height: 10px;
-      } */
-    
 }
 
   @media(max-width:767px) {
@@ -299,6 +292,8 @@ a{
     
     .header .nav ul li ul li {
         width: 100%;
+        padding-left: 25px;
+        padding-top: 5px;
     }
 
     
@@ -307,12 +302,12 @@ a{
     /* font-family: 'font Awesome'; */
     /* font-family: 'Font Awesome 5 Free'; */
     font-size: 25px;
-    padding-right: 50px;
-    /* position: absolute; */
-    /* line-height: 70px; */
-    color: #3333;
-    /* right: -20px; */
-   
+  padding-right: 100px;
+  /* padding-:240px; */
+    position: absolute;
+    line-height: 30px;
+    color: #000000;
+    /* right: -20px;    */
 }
 
 .header .nav ul li.active.sub-menu::before {
@@ -322,9 +317,10 @@ a{
   /* font-size: 30px; */
   font-size: 25px;
   /* padding-right: 50px; */
-  /* position: absolute; */
-  /* line-height: 70px; */
-  color: #3333;
+  /* padding-left: 10px; */
+  position: absolute;
+  line-height: 30px;
+  color: #000000;
   /* right: -20px; */
 }
 
@@ -335,8 +331,8 @@ a{
   font-size: 25px;
   /* padding-right: 50px; */
   /* margin-left: 10px; */
-  /* position: absolute; */
-  /* line-height: 70px; */
+  position: absolute;
+  line-height: 30px;
   color: #3b0202;
   /* right: -20px; */
 }
@@ -346,12 +342,18 @@ a{
   /* font-family: 'font Awesome'; */
   /* font-family: 'Font Awesome 5 Free'; */
   font-size: 25px;
-  padding-right: 50px;
+  /* padding-right: 50px; */
   /* margin-left: 10px; */
-  /* position: absolute; */
-  /* line-height: 70px; */
+  position: absolute;
+  line-height: 30px;
   color: #3b0202;
   /* right: -20px; */
 }
     
+}
+
+@media (max-width:1366px) and (min-width:768px) {
+    .header {
+        height: auto;
+    }
 }

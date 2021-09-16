@@ -36,6 +36,15 @@ $(window).on("load",function(){
         }
     })
 
+    // Chat Box 
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $(".chat").addClass("fixed");
+        }else{
+            $(".chat").removeClass("fixed");
+        }
+    })
+
     
 
     
