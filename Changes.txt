@@ -9,7 +9,6 @@ Mobile:
 
 Contact Page border need to check
 
-Others:
-Gallery 
-Nav Sub nav hoover
+
+
 

@@ -120,6 +120,7 @@ a{
   .header .nav ul li ul li {
       display: block;
       width: 200px;
+      margin-left: 0px;
       /* height: 50px; */
       /* line-height:30px; */
       /* padding-bottom: 5px; */
@@ -129,7 +130,17 @@ a{
     display: block;
     width: 200px;
     line-height: 3px;
+    margin-left: 10px;
   }
+
+  .header .nav ul li ul li:hover{
+    background-color: #ffffff;
+    /* color: white; */
+    }
+    .header .nav ul li ul li:hover a{
+        /* background-color: #3b0202; */
+        color: #000000;
+    }
 
   .header.fixed .nav ul li ul li a {
     display: block;
@@ -152,6 +163,15 @@ a{
     background-color: #ffffff;
     opacity: 1;
     display: none;
+}
+
+.header.fixed .nav ul li ul li:hover{
+    background-color: #3b0202;
+    color: white;
+}
+.header.fixed .nav ul li ul li:hover a{
+    /* background-color: #3b0202; */
+    color: white;
 }
 
   .header .nav ul li.active ul {
@@ -349,7 +369,7 @@ a{
   color: #3b0202;
   /* right: -20px; */
 }
-    
+        
 }
 
 @media (max-width:1366px) and (min-width:768px) {
