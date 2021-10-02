@@ -16,6 +16,7 @@
     font-size: 40px;
     margin-top: 40px;
     color: #3b0202;
+    /* border-bottom: 2px solid #3b0202; */
   }
 
   
@@ -42,7 +43,7 @@
     flex-wrap: wrap;
     border: 2px solid rgb(31, 9, 9);
     border-radius: 10px;
-    background-image: url(../images/contact/bg.jpeg);
+    /* background-image: url(../images/contact/bg.jpeg); */
     opacity: 1;
     box-shadow:  5px 5px  5px 5px  rgba(0, 0, 0, 0.555);
   }
@@ -76,8 +77,9 @@
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.6;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(54, 6, 6);
+    opacity: 1;
     text-align: center;
     color: #fff;
     border-radius: 50%;
@@ -162,6 +164,12 @@
   @media screen and (max-width: 980px){
     .contact-page{
       max-width: 800px;
+      border: none;
+      box-shadow:  none;
+    }
+
+    .con h1 {
+      border-bottom: 2px solid #3b0202;
     }
     h2{
       font-size: 35px;
