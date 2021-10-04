@@ -60,7 +60,16 @@
   }
   .popup .content p {
     color: black;
+    padding: 5px;
   }
+  .popup .content p::before {
+    content: "•";
+    color: #000;
+    display: inline-block;
+    width: 16px;
+    /* margin-left: -2px; */
+  }
+  
 
 
   @media (max-width:768px) {
