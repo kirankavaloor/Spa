@@ -57,20 +57,22 @@
     margin-top: 20px;
     max-height: 50%;
     overflow: auto;
-  }
-  .popup .content p {
-    color: black;
-    padding: 5px;
-  }
-  .popup .content p::before {
-    content: "•";
-    color: #000;
     display: inline-block;
-    width: 16px;
-    /* margin-left: -2px; */
   }
-  
 
+  .popup .content .par {
+    display: flex;
+    font-size: 20px;
+  }
+
+  .popup .content .par span {
+    color: #000;
+  }
+
+  .popup .content .par p {
+    color: black;
+    padding-left: 10px;
+  }
 
   @media (max-width:768px) {
     .popup {

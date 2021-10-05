@@ -199,9 +199,12 @@ margin-top: 40px;
   @media screen and  (max-width: 768px) {
     .btnback {
       position: relative;
+      display: none;
     }
 
     .btnback i {
       margin-top: 20px;
     }
+
+
   }
