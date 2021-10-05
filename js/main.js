@@ -69,27 +69,6 @@ $(window).on("load",function(){
         setTimeout(slideShow,5000);
     }
     slideShow();
-
-    // // for Loading text
-    // var textWrapper = document.querySelector('.ml3');
-    // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    // anime.timeline({loop: true})
-    // .add({
-    //     targets: '.ml3 .letter',
-    //     opacity: [0,1],
-    //     easing: "easeInOutQuad",
-    //     duration: 100,
-    //     delay: (el, i) => 150 * (i+1)
-    // }).add({
-    //     targets: '.ml3',
-    //     opacity: 0,
-    //     duration: 100,
-    //     easing: "easeOutExpo",
-    //     delay: 100
-    // });
-
-   
         
     })
 
@@ -112,11 +91,18 @@ function carousel() {
 
 $(document).ready(function(){
 
-    $('ul li').click(function(){
-        $(this).siblings().removeClass('active');
-        $(this).toggleClass('active');
-    })
+        $('ul li').click(function(){
+            $(this).siblings().removeClass('active');
+            $(this).toggleClass('active');
+        })
+
+        $(".home-section, .gallery, .swiper2, .con, .contact, .map, .footer").click(function() {
+            $('ul li').siblings().removeClass('active');
+            $(".header .nav").slideToggle().removeClass('active');
+        })
 })
+
+
 
 $('.sub-menu a').click(function(){
     $(".sub-menu").collapse('active');
