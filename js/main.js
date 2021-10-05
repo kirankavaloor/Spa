@@ -98,7 +98,9 @@ $(document).ready(function(){
 
         $(".home-section, .gallery, .swiper2, .con, .contact, .map, .footer").click(function() {
             $('ul li').siblings().removeClass('active');
-            $(".header .nav").slideToggle().removeClass('active');
+            if($(window).width() < 768) {
+                $(".header .nav").slideToggle().removeClass('active');
+            }
         })
 })
 
